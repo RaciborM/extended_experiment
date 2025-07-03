@@ -254,8 +254,8 @@ def run_pipeline(train_val_dir, test_dir, epochs=50, batch_size=32, lr=0.001):
 
 if __name__ == "__main__":
     run_pipeline(
-        train_val_dir=r"C:\Users\misie\Desktop\praca_magisterska\programy\pointing_04_ready",
-        test_dir=r"C:\Users\misie\Desktop\praca_magisterska\programy\Front",
+        train_val_dir=r"train_dataset_PATH",
+        test_dir=r"test_dataset_PATH",
         epochs=50,
         batch_size=32,
         lr=0.001
