@@ -60,7 +60,7 @@ Bar charts
 
 Sample image pairs
 
-## 📌 Notes
+## Notes
 The model uses BCEWithLogitsLoss and outputs a similarity score between 0 and 1.
 
 Thresholds for classification can be tuned; default evaluation runs for thresholds between 0.01 and 0.4.
