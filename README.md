@@ -1,6 +1,6 @@
 # Face recognition - extended experiment
 
-This project implements a Siamese Neural Network in PyTorch using a pretrained ResNet-18 as a feature extractor. The model learns to predict whether two input images belong to the same class or not. It represents the first of two tasks completed as part of my Master's thesis.
+This project implements a Siamese Neural Network in PyTorch, leveraging a pretrained ResNet-18 model as a feature extractor to learn robust image embeddings. The network is trained to determine whether two input images belong to the same class by comparing their feature representations, effectively learning a similarity metric rather than direct classification. This approach is particularly useful for tasks where labeled data is limited or where verification of image pairs is required. The model is trained using contrastive or triplet loss functions to optimize the embedding space for meaningful distance measurements. This work represents the second of two major tasks undertaken as part of my Master’s thesis, which explores advanced deep learning methods for face verification and similarity assessment.
 
 ## Overview
 
